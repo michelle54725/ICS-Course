@@ -8,7 +8,7 @@ num = startY.to_i
 while num <= endY.to_i
 	if num%4 == 0
 		if num%100 != 0 || num%400 == 0 
-		puts num
+			puts num
 		end
 	end
 	num = num + 1
