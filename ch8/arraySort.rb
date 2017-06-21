@@ -1,11 +1,12 @@
 words = []
 
 while true
-word = gets.chomp
-words.push word
+	word = gets.chomp
 	if word == ''
 		break
 	end
+	
+	words.push word
 end
 
 puts words.sort
